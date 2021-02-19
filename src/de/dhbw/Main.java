@@ -6,7 +6,7 @@ public class Main {
 
         Counter counter = new Counter(0);
 
-        for(int i = 0; i < 100; i++) {
+        for (int i = 0; i < 100; i++) {
             counter.increment();
             System.out.println("Der aktuelle Wert ist: " + counter.getCounterValue());
         }
