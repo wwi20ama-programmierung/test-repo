@@ -7,7 +7,6 @@ public class Counter extends BaseObject {
         this.counter = startValue;
     }
 
-    // Counter um 1 hochzählen
     public void increment() {
         this.counter++;
         // this.counter = this.counter + 1;
